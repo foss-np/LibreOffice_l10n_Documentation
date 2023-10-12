@@ -120,7 +120,7 @@ Placeholders
 * पञ्चम वर्णको नियम : संस्कृत शब्दहरूमा लागू हुन्छ
 * आगन्तुक शव्दहरूका नियमहरू : आगन्तुक शब्दहरूमा नेपाली नियम अनुसार गर्ने
 ### Terminology
-* उपलब्ध भएसम्म नेपाली शब्दकोष या Weblate  मा उपलब्ध ग्लोसरी प्रयोग गर्नुहोस्।
+* उपलब्ध भएसम्म नेपाली शब्दकोष या Weblate  मा उपलब्ध शब्द संग्रह प्रयोग गर्नुहोस्।
 * [Mozilla Transvision](https://transvision.mozfr.org/?recherche=Nepal&repo=all_projects&sourcelocale=en-US&locale=ne-NP&search_type=strings) को पनि प्रयोग गर्न सकिन्छ 
 
 ### Formatting
