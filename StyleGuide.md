@@ -14,56 +14,69 @@ If you have any suggestions or enhancements on this guidelines please add a pull
 
 - Honorifics
 
-For verbs or strings being used in the context of commands, in the past versions of LibreOffice, we have been following the honorific form applicable for the pronominal form “तपाईँ”, for example,
-Edit →सम्पादन गर्नुहोस्
+  - For verbs or strings being used in the context of commands, in the past versions of LibreOffice, we have been following the honorific form applicable for the pronominal form “तपाईँ”, for example,
+    Edit →सम्पादन गर्नुहोस्
 
-I think we will have to continue with this practice this time as well.
+  - I think we will have to continue with this practice this time as well.
 
 - Gender
 
-Gender system in Nepali works only in human female nouns, but this confusion can be avoided by using honorific term. However, if the subject of the sentence is non-human, we can use normal form, ie., verb ending with यो, ए, आदि
+  - Gender system in Nepali works only in human female nouns, but this confusion can be avoided by using honorific term. However, if the subject of the sentence is non-human, we can use normal form, ie., verb ending with यो, ए, आदि
 
 - Tone
-  - Use of passive tone
-    ⠀Example
+
+  - Use of passive tone\
+    Example
     | English source string | Nepali target translation string |
-    |-----------------------|----------------------------------|
+    |--|--|
     | She did it. | उहाँले गर्नुभयो। |
     | She does it | उहाँले गर्नुहुन्छ। |
-- Tense
-  - Use of Past Tense
 
-⠀Example
-| English source string | Nepali target translation string |
-|-----------------------|----------------------------------|
-| Translation completed | अनुवाद सकियो |
-| Download Complete | डाउनलोड गरियो |
+- Tense
+
+  - Use of Past Tense\
+    Example
+    | English source string | Nepali target translation string |
+    |--|--|
+    | Translation completed | अनुवाद सकियो |
+    | Download Complete | डाउनलोड गरियो |
 
 - Punctuations
 
-⠀Example
-| English Punctuation | Nepali Punctuation |
-|---------------------|--------------------|
-| . | । |
-Rest of the Punctuation symbols are similar.
+  - \
+     Example
+    | English Punctuation | Nepali Punctuation |
+    |--|--|
+    | . | । |
+    Rest of the Punctuation symbols are similar.
 
 - Trade Names
-  We should respect other’s trade names and their trademarks. We do not translate their trade names unless we are sure that they have a trade names in Nepali.
 
-⠀Example
-| English source string | Nepali target translation string |
-|-----------------------|----------------------------------|
-| Google Drive | Google ड्राइभ |
-| Microsoft Office | Microsoft Office |
+  - We should respect other’s trade names and their trademarks. We do not translate their trade names unless we are sure that they have a trade names in Nepali.\
+    ⠀ Example
+    | English source string | Nepali target translation string |
+    |--|--|
+    | Google Drive | Google ड्राइभ |
+    | Microsoft Office | Microsoft Office |
 
-- Technical Words (Leave them untranslated in English if very short and rarely used else transliterate in Nepali)
-  | English source string | Nepali target translation string |
-  |--------------------------------------------|---------------------------------------|
-  | TCP/IP | TCP/IP |
-  | Ethernet | इथरनेट |
-  | API | API |
-  | PDF | पिडिएफ |
-  | System variables of the form “_variables_” | “_variables_” are written as they are |
+- Technical Words
+
+  - (Leave them untranslated in English if very short and rarely used else transliterate in Nepali)
+    | English source string | Nepali target translation string |
+    |--|--|
+    | TCP/IP | TCP/IP |
+    | Ethernet | इथरनेट |
+    | API | API |
+    | PDF | पिडिएफ |
+    | System variables of the form “_variables_” | “_variables_” are written as they are |
+
+- Placeholders
+  - \
+     Example
+    | Sentence in English | Sentence in Nepali |
+    |--|--|
+    | By [User_name] | [User_name] द्वारा |
+    | from %s | %s बाट |
 
 ### Brand voice and tone
 
@@ -95,16 +108,6 @@ or such.
 
 - Don't translate the keyboard keys. Use the same symbol that appears on the keyboard. For example: ENTER, Ctrl, Alt, F1, F10. We sometime see people translating F1 to f1 or even एफ १. Please don't do that.
 - People have gotten used to words like save, update, etc. Don't complicate things by translating "save file" to "पाठ वचत गर्नुहोस्". You can use "फाइल सेभ गर्नेुहोस्”. We never hear anyone ask "मेरो फोन अङ्क तपाईँको फोनमा बचत गर्नुभएको छ?"
-
-Placeholders
-
-⠀
-| Sentence in English |
-| By [User_name] |
-| from %s |
-| Sentence in Nepali |
-| [User_name] द्वारा |
-| %s बाट |
 
 ## Nepali Spelling
 
@@ -171,7 +174,7 @@ While it is hard to state any hard rules about variables and symbols in the UI f
 Up one level|
 Create New Folder|
 
-- **$** and **%** most of the time introduce a variable that will be replaced in the user interface, and the word or number following the $ or % must not be translated. Examples:
+- **\$** and **%** most of the time introduce a variable that will be replaced in the user interface, and the word or number following the $ or % must not be translated. Examples:
 
 ⠀%PRODUCTNAME ''This will display the name of the product''
 Change object title of %1 ''%1 will be replaced by the name of the object''
